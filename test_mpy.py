@@ -862,7 +862,7 @@ class MicroWebCli:
 
 import network, time, socket
 from machine import UART
-from fpioa_manager import fm, board_info
+from fpioa_manager import fm
 
 if 'wlan' not in locals():
 
